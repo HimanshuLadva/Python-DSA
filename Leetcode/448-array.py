@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array?envType=problem-list-v2&envId=array
 # Find All Numbers Disappeared in an Array
+# used Cyclic Sort / Index Mapping 
 from typing import List
 
 class Solution:
