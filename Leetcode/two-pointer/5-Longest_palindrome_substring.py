@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/longest-palindromic-substring?envType=problem-list-v2&envId=two-pointers
-# MMIMP
+# #MIMP
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if not s or len(s) == 1:

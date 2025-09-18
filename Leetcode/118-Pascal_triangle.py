@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/pascals-triangle?envType=problem-list-v2&envId=array
-# MMIMP
+# #MIMP
 from typing import List
 
 class Solution:
