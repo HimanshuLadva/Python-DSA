@@ -37,35 +37,46 @@ class LinkedList:
 
     def delete_node(self, key):
         current = self.head
-        if current and current.data == key:
-            self.head = current.next
-            current = None
-        else:
-            prev=None
-            while True:
-                if current.data == key:
-                    break
-                prev = current
-                current = current.next
 
-                if current == self.head:
-                    print("Error: key not found in list")
-                    return
-                
+        if not current:
+            return
+        
+        prev=None
+        while True:
+            if current.data == key:
+                break
+            prev = current
+            current = current.next
+
             if current == self.head:
-
-            if current is None:
-                print("Error: key is not found in list")
+                print("Error: key not found in list")
+                return
+            
+        if current == self.head:
+            last_node = self.head
+            while last_node.next != self.head:
+                last_node = last_node.next
+            
+            if self.head == self.head.next:
+                self.head = None
             else:
-                prev.next = current.next
-                current = None
+                last_node.next = self.head.next
+                self.head = self.head.next
+        else:
+            prev.next = current.next
     
     def print_list(self):
+        if not self.head:
+            print("list is empty!")
+
         current = self.head
 
-        while current.next != self.head:
-            print(current.data, end="->")
+        while True:
+            print(current.data, end="->" if current.next != self.head else " (head)\n")
             current = current.next
+            
+            if current == self.head:
+                break
 
 llist = LinkedList()
 llist.append(1)
@@ -77,7 +88,7 @@ llist.append(6)
 llist.print_list()
 llist.delete_node(2)
 llist.print_list()
-llist.prepend(10)
-llist.print_list()
+# llist.prepend(10)
+# llist.print_list()
 
         
