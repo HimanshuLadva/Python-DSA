@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii?envType=daily-question&envId=2025-11-05
 # #MIMP
+# #newlearn
 
 from typing import List
 from collections import Counter

@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/minimum-time-to-make-rope-colorful?envType=daily-question&envId=2025-11-03
 # #MIMP
+# #newlearn
 
 from typing import List
 class Solution:
