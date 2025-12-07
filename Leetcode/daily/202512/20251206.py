@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k?envType=daily-question&envId=2025-12-06
-# #new-learn
+# #newlearn
 from typing import List
 from collections import deque
 from sortedcontainers import SortedList
