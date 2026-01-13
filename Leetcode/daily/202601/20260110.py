@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings?envType=daily-question&envId=2026-01-10
 # #newlearn
-# #newlearn-topic
+# #topic
 class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:
         from functools import lru_cache

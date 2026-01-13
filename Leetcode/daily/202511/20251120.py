@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/set-intersection-size-at-least-two?envType=daily-question&envId=2025-11-20
-# #newlearn-topic-bisect_left or right
+# #topic-bisect_left or right
 
 from typing import List
 from bisect import bisect_left,bisect_right

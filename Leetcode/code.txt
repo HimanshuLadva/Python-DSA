@@ -1,4 +1,4 @@
 #newlearn => need to learn topic of question and question
-#newlearn-topic => need to learn only topic of question
+#topic => need to learn only topic of question
 #Xms-le => need to know how this code works 
 #method => need to revision method

@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/maximum-product-of-splitted-binary-tree?envType=daily-question&envId=2026-01-07
 # #method
-# #newlearn-topic
+# #topic
 from typing import Optional
 # Definition for a binary tree node.
 class TreeNode:
