@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/minimum-time-visiting-all-points/description/?envType=daily-question&envId=2026-01-12
-# #topic
+# #learntopic
 from typing import List
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:

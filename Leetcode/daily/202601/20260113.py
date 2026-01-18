@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/separate-squares-i/description/?envType=daily-question&envId=2026-01-13
-# #topic-caculate_area_below()
+# #learntopic-caculate_area_below()
 from typing import List
 class Solution:
     def separateSquares(self, squares: List[List[int]]) -> float:

@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/minimum-penalty-for-a-shop?envType=daily-question&envId=2025-12-26
-# #method
+# #revision
 class Solution:
     def bestClosingTime(self, customers: str) -> int:
         n = len(customers)

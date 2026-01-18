@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix?envType=daily-question&envId=2025-12-28
-# #method
+# #revision
 
 from typing import List
 class Solution:

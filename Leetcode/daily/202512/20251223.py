@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/two-best-non-overlapping-events?envType=daily-question&envId=2025-12-23
-# #Xms-le
+# #howtowork
 from typing import List
 class Solution:
     def maxTwoEvents(self, events: List[List[int]]) -> int:

@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/description/?envType=daily-question&envId=2026-01-17
-# #topic-intersection_area function
+# #learntopic-intersection_area function
 from typing import List
 class Solution:
     def largestSquareArea(self, bottomLeft: List[List[int]], topRight: List[List[int]]) -> int:

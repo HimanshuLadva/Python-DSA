@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k?envType=daily-question&envId=2025-11-27
-# #topic
+# #learntopic
 
 from typing import List
 from itertools import accumulate
