@@ -2,3 +2,4 @@
 #learntopic => need to learn only topic of question
 #howtowork => need to know how this code works 
 #revision => need to revision method
+#implogic => logic that is usefull
