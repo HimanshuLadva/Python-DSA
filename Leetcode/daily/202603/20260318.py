@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/description/?envType=daily-question&envId=2026-03-18
 from typing import List
 class Solution:
-    #howtowork
+    #newlearn
     def countSubmatrices(self, grid: List[List[int]], k: int) -> int:
         n, m = len(grid), len(grid[0])
         cols = [0] * m
