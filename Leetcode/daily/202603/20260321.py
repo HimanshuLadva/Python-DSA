@@ -1,32 +1,18 @@
-# https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/?envType=daily-question&envId=2026-03-20
 from typing import List
-#newlearn
 class Solution:
-    def minAbsDiff(self, grid: List[List[int]], k: int) -> List[List[int]]:
-        m, n = len(grid), len(grid[0])
-        ans = [[0] * (n - k + 1) for _ in range(m - k + 1)]
+    def reverseSubmatrix(self, grid: List[List[int]], x: int, y: int, k: int) -> List[List[int]]:
+        for i in range(k//2):
+            for j in range(k):
+                print((x+i, y+j), end=" ")
+            print()
+            for j in range(k):
+                print((x + k - i - 1, y + j), end=" ")
+            print()
         
-        for i in range(m - k + 1):
-            for j in range(n - k + 1):
-                vals = set()
-                
-                # collect unique elements
-                for x in range(i, i + k):
-                    for y in range(j, j + k):
-                        vals.add(grid[x][y])
-                
-                vals = sorted(vals)
-                
-                # if only one unique value
-                if len(vals) == 1:
-                    ans[i][j] = 0
-                    continue
-                
-                # compute min diff between distinct values
-                min_diff = float('inf')
-                for t in range(1, len(vals)):
-                    min_diff = min(min_diff, vals[t] - vals[t - 1])
-                
-                ans[i][j] = min_diff
-        
-        return ans
+        for i in range(k // 2):
+            for j in range(k):
+                grid[x+i][y+j],grid[x + k - i - 1][y + j] = grid[x + k - i - 1][y + j],grid[x+i][y+j]
+        return grid
+    
+sol = Solution()
+sol.reverseSubmatrix(grid = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]], x = 1, y = 0, k = 3)
