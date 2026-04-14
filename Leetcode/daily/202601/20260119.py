@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/description/?envType=daily-question&envId=2026-01-19
-#topic - prefix sum, binary search
+#learntopic - prefix sum, binary search
 from typing import List
 class Solution:
     def maxSideLength(self, mat: List[List[int]], threshold: int) -> int:

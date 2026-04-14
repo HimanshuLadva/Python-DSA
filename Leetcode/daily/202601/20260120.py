@@ -1,5 +1,5 @@
 # https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/?envType=daily-question&envId=2026-01-20
-#topic - << operator in py
+#learntopic - << operator in py
 from typing import List
 class Solution:
     # 0ms

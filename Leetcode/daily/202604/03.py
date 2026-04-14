@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/maximum-walls-destroyed-by-robots/?envType=daily-question&envId=2026-04-03
 #newlearn
-#topic-Dynamic programming
+#learntopic-Dynamic programming
 from typing import List
 class Solution:
     def maxWalls(
