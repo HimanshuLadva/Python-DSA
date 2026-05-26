@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/count-the-number-of-special-characters-i/description/?envType=daily-question&envId=2026-05-26
 class Solution:
     def numberOfSpecialChars(self, word: str) -> int:
         upper_word = {x.lower() for x in word if x.isupper()}
