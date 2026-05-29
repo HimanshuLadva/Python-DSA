@@ -8,10 +8,10 @@ class Solution:
         for n in nums:
             curr = 0
             while n:
-                curr = n % 10
+                curr += n % 10
                 n //= 10
             
-            minimum = min(minimum, int(curr))
+            minimum = min(minimum, curr)
         
         return minimum
     
