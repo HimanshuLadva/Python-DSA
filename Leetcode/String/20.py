@@ -1,31 +1,31 @@
 # https://leetcode.com/problems/valid-parentheses?envType=problem-list-v2&envId=string
 # #pending
-    class Solution:
-        def isValid(self, s: str) -> bool:
-            if len(s) == 1:
-                return False
-            
-            result = []
-            for x in s:
-                if x in ['(','[','{']:
-                    result.append(x)
+class Solution:
+    def isValid(self, s: str) -> bool:
+        if len(s) == 1:
+            return False
+        
+        result = []
+        for x in s:
+            if x in ['(','[','{']:
+                result.append(x)
+            else:
+                top = result[-1] if len(result) > 0 else ''
+                if top == '(' and x == ')': 
+                    result.pop()
+                elif top == '[' and x == ']':
+                    result.pop()
+                elif top == '{' and x == '}':
+                    result.pop()
                 else:
-                    top = result[-1] if len(result) > 0 else ''
-                    if top == '(' and x == ')': 
-                        result.pop()
-                    elif top == '[' and x == ']':
-                        result.pop()
-                    elif top == '{' and x == '}':
-                        result.pop()
-                    else:
-                        return False
+                    return False
 
-            # print(f"result = {result}")
+        # print(f"result = {result}")
 
-            if len(result) != 0:
-                return False
+        if len(result) != 0:
+            return False
 
-            return True
+        return True
     
 sol = Solution()
 s = "()[]{}"
