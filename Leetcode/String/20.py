@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/valid-parentheses?envType=problem-list-v2&envId=string
+
 class Solution:
     def isValid(self, s: str) -> bool:
         if len(s) == 1:
