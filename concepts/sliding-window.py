@@ -18,7 +18,7 @@ some specific condition
 
 def maxSumSubarray(nums: list[int], k:int) -> int:
     n = len(nums)
-    print(f"length = {n}")
+    print(f"nums = {nums}")
 
     if n < k:
         print("Invalid input!!")
@@ -29,11 +29,12 @@ def maxSumSubarray(nums: list[int], k:int) -> int:
     max_sum = window_sum
 
     for i in range(n - k):
-        # window_sum = window_sum - arr[i] + arr[i+k]
-        subarray = nums[i+1: i+k+1]
-        window_sum = sum(subarray)
+        print(arr[i+1:i+k+1])
+        window_sum = window_sum - arr[i] + arr[i+k]
+        # subarray = nums[i+1: i+k+1]
+        # window_sum = sum(subarray)
         max_sum = max(window_sum, max_sum)
-        print(f"sub array = {subarray}, i = {i}")
+        print(f"sub array = {window_sum}, i = {i}")
 
     return max_sum
 
