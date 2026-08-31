@@ -1,18 +1,21 @@
-Prefix sum
+Array > Prefix sum
 Easy - 303,1422,1480,1413
 Medium - 209,238,3756,523,525,560
 
-Kandane's Algorithm
+Array > Kandane's Algorithm
 Easy - 53
 Medium - 918,152,1749,1191
 
-Binary Search 
+Array > Binary Search 
 Easy - 35,278,704,1346
 M = 34,374,81,167	
 
-Cyclic sort
+Array > Cyclic sort
 E - 268,448,645
 M = 442,287,41
 
 Merge sort
 M = 912,148
+
+String > Two point
+E - 344,125
