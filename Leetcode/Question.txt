@@ -18,4 +18,5 @@ Merge sort
 M = 912,148
 
 String > Two point
-E - 344,125
+E - 344,125,392
+M - 3,5
