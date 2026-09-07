@@ -17,6 +17,9 @@ M = 442,287,41
 Merge sort
 M = 912,148
 
-String > Two point
+String > Two pointer
 E - 344,125,392
 M - 3,5,151,424
+
+String > Sliding window
+E - 28,
