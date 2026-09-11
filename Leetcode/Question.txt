@@ -24,3 +24,7 @@ M - 3,5,151,424
 String > Sliding window
 E - 28,1876,2379
 M - 1456,567.438,1461
+
+String > Palindrome Expansion
+E - 9,2108,125
+M - 5,647
