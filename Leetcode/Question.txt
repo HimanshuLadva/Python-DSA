@@ -28,3 +28,6 @@ M - 1456,567.438,1461
 String > Palindrome Expansion
 E - 9,2108,125
 M - 5,647
+
+HashSet / HashMap > 
+E - 1
