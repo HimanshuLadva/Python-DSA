@@ -29,5 +29,6 @@ String > Palindrome Expansion
 E - 9,2108,125
 M - 5,647
 
-HashSet / HashMap > 
-E - 1,242
+HashSet / HashMap > Frequency counting
+E - 1,242,383,1207
+M - 451,347,438,567
