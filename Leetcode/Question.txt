@@ -32,3 +32,7 @@ M - 5,647
 HashSet / HashMap > Frequency counting
 E - 1,242,383,1207
 M - 451,347,438,567
+
+HashSet / HashMap > Prefix Sum + HashMap
+E - 724,1991
+M - 560,525,974
