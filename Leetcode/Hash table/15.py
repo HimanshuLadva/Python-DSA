@@ -1,6 +1,8 @@
 # https://leetcode.com/problems/3sum/
 
 class Solution:
+    #revision
+    #howtowork
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort()
         seen = set()
