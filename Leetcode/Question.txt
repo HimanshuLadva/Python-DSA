@@ -58,4 +58,4 @@ E - 231,326,1071
 M - 38,1823,390,372
 
 Recursion Basic > Recursion → Memoization Bridge
-E - 746
+E - 746,119,509,70,1137

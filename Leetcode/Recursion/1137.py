@@ -1,7 +1,37 @@
 # https://leetcode.com/problems/n-th-tribonacci-number/description/
 
 class Solution:
-    def tribonacci(self, n: int, a:int = 0, b:int = 1, c: int = 1) -> int:
+    # Recursion Basic > Recursion → Memoization Bridge
+    def tribonacci(self, n: int) -> int:
+        memo = {}
+
+        def solve(n:int):
+            if n <= 0:
+                return 0
+            if n <= 1:
+                return 1
+            if n <= 2:
+                return 1
+
+            if n in memo:
+                return memo[n]
+
+            memo[n] = solve(n-1) + solve(n-2) + solve(n-3)
+            return memo[n]
+
+        return solve(n)
+
+    def tribonacciV1(self, n: int) -> int:
+        if n <= 0:
+            return 0
+        if n <= 1:
+            return 1
+        if n <= 2:
+            return 1
+
+        return self.tribonacci(n-1) + self.tribonacci(n-2) + self.tribonacci(n-3)
+    
+    def tribonacciV1(self, n: int, a:int = 0, b:int = 1, c: int = 1) -> int:
         if n == 0:
             return a
         if n == 1:
