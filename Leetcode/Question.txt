@@ -66,4 +66,4 @@ M - 142,287,2095,2130
 
 Linked List > Reversal Pattern
 E - 206,234
-M - 92
+M - 92,24,2074
