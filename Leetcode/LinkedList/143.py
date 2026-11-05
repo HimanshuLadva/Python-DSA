@@ -6,6 +6,14 @@ class ListNode:
         self.val = val
         self.next = next
 class Solution:
+    def display(self, head: ListNode):
+        print("------------------")
+        curr = head
+        while curr:
+            print(curr.val)
+            curr = curr.next
+        print("-------------------")
+
     def reorderList(self, head: Optional[ListNode]) -> None:
         # find middle of list
         slow = head
@@ -28,6 +36,7 @@ class Solution:
             prev = curr
             curr = next
 
+        self.display(head)
         second = prev
         start = head
         while second:
